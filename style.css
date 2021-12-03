@@ -1,0 +1,11 @@
+div#image-place {
+  position: relative;
+}
+
+img {
+  position: absolute;
+  object-fit: cover;
+  left: 50%;
+  width: 70%;
+  transform: translate(-50%);
+}
